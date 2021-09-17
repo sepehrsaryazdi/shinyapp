@@ -127,7 +127,7 @@ server <- function(input, output, session) {
                geom_histogram(aes(x=dist,y=..count../sum(..count..),color=paste(input$dist_input,'Distribution')),alpha=0.5,fill='white')+
                geom_histogram(aes(x=covid[[1]],y=..count../sum(..count..),color='Data Distribution'),alpha=0.5,fill='white')+
                scale_y_continuous(label=scales::percent)+
-               labs(x="Number of COVID-19 Tests", y="Proportion of Students", color="Distribution")+ ggtitle("Prop of No. of COVID-19 Tests Per Student (2 Month Interval)")+
+               labs(x="Number of COVID-19 Tests", y="Proportion of Students", color="Distribution", title="Prop of No. of COVID-19 Tests Per Student (2 Month Interval)")+
                theme_gdocs(),tooltip="text")
   })
   
