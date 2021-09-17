@@ -1,0 +1,11 @@
+name: shinyapp
+title:
+username:
+account: sepehrsaryazdi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4635184
+bundleId: 5024213
+url: https://sepehrsaryazdi.shinyapps.io/shinyapp/
+when: 1631426821.08436
+lastSyncTime: 1631426821.08436
